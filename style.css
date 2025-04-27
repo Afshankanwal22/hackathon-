@@ -1,0 +1,172 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+.navbar {
+    padding: 0 30px; 
+    border: none;
+    margin-top: 20px;
+
+  }
+  .navbar-nav {
+    margin: 0 auto; 
+    color: rgb(77,77,77);
+  }
+  .btn-outline-success {
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 0%;
+  }
+  .btn-outline-success:hover {
+    background-color: darkgreen; 
+    color: white;
+  }
+  .active{
+    color: rgb(77,77,77) !important;
+  }
+  .hero-section{
+    border: none;
+    background: rgb(245,247,250);
+    margin-top: 40px;
+    padding-top: 50px;
+    min-height: 400px;
+    overflow: hidden;
+    padding-left: 50px;
+  }
+  .card-title {
+    font-size: 40px;
+    font-weight: bold;
+    color: rgb(77,77,77);
+    font-family: inter,sans-serif;
+  }
+  
+  .sub-text{
+    color: rgb(76,175,79);
+  }
+  .card-text{
+    color: rgb(133,134,134);
+  }
+  .button1{
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 0%;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 5px;
+
+  }
+  .section1{
+    text-align: center;
+  }
+  .h3{
+    font-size: 40px;
+  }
+  .para{
+    color: rgb(133,134,134);
+    display: inline !important;
+    white-space: nowrap;
+  }
+  .container {
+    overflow-x: hidden; 
+  }
+  
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .col {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .paras{
+    font-size: 15px;
+  }
+  .section-3{
+    border: none;
+  }
+  .div{
+    color:rgb(86,179,89) ;
+    font-size: 37px;
+  }
+.section-4{
+    background: rgb(245,247,250); 
+    min-height: 200px;
+    padding-top: 50px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    margin: 0; 
+}
+
+.col {
+    padding: 0; 
+}
+
+
+.d-flex {
+    margin: 0;
+    gap: 0;
+}
+
+.icon-img {
+    width: 40px; 
+    height: 40px;
+    margin-right: 10px; 
+    margin-bottom: 20px;
+}
+
+.text-container {
+    margin-left: 5px; 
+}
+.part{
+    margin-left: 190px;
+    
+
+
+}
+.parts{
+    margin-left: 90px;
+
+}
+.para span {
+    display: inline !important; 
+}
+.section-left{
+    padding-left: 50px;
+}
+.section-5{
+    border: none;
+}
+.section-6{
+    border: none;
+}
+.tim{
+    color: rgb(76,175,79) ;
+    display: inline !important;
+}
+.tim span{
+    display: inline !important;
+    justify-content: space-between;
+    display: flex;
+}
+.section-8{
+    background:  rgb(245,247,250) !important ;
+    min-height: 200px;
+    padding-top: 60px;
+    
+}
+.foot{
+    background:rgb(38,50,56);
+    color: white;
+}
+
+
