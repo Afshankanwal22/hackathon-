@@ -277,7 +277,7 @@ border-radius: 5px;
 
 
 
-@media screen and (min-width: 400px) and (max-width: 750px){
+@media screen and (min-width: 380px) and (max-width: 550px){
   .navbar {
     width: 200%; 
   }
@@ -308,6 +308,7 @@ border-radius: 5px;
   .section-4{
     width: 200%;
   }
+  
 
   .section-left {
     text-align: center; 
@@ -331,31 +332,41 @@ border-radius: 5px;
   .logos {
     display: flex;
     flex-wrap: wrap; 
-    justify-content: center;
+    justify-content: space-between;
     gap: 20px; 
     margin-left: 200px;
+    
   
   }
+  .paras {
+    text-align: center; 
+    white-space: normal; 
+    max-width: 50%; 
+    margin: 0 auto; 
+    line-height: 1.5; 
+  }
+
   
-  .logo-img {
-  width: calc(50% - 10px) ;
-    max-width: 100px;
+  .logos img {
+   display: flex !important;
+   
+    
   }
   
   .tim {
     width: 100%;
   text-align: center;
-  font-size: 15px;
+  font-size: 13px !important;
   margin-top: 20px;
   margin-left: 20px;
   }
   .section-7 .card{
   
-  margin-left: 250px;
+  margin-left: 200px;
    
   }
   .card-img-top {
-    width: 250%;
+    width: 220%;
     
   }
   .foot{
@@ -381,4 +392,5 @@ border-radius: 5px;
   
  
 }
+
 
