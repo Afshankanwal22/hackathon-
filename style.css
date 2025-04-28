@@ -293,12 +293,15 @@ border-radius: 5px;
     min-width: 230%!important;
     text-align: center;
   }
+  .hero-section img{
+    width: 40% !important;
+  }
   .section1{
     width: 230%;
     
   }
   .container{
-    width: 230%;
+    width: 220%;
   }
   .text-center{
     width: 200%;
@@ -318,6 +321,13 @@ border-radius: 5px;
     width: 230%;
   
   }
+  .section-3 h4{
+    font-size: 20px !important;
+  }
+  .section-3 p div{
+    font-size: 10px !important;
+  
+  }
  .logos-row{
 padding-right: 20%;
  }
@@ -329,8 +339,19 @@ padding-right: 20%;
 
 
   .section-left {
-    text-align: center; 
+    margin-right: 20%; 
     margin-bottom: 20px; 
+
+  }
+  .section-left h3 {
+    font-size: 20px;
+  }
+  .div{
+    font-size: 20px;
+    padding-top: 10px;
+  }
+  .section-left p{
+    font-size: 15px;
   }
 
   .four {
@@ -338,8 +359,14 @@ padding-right: 20%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-right: 15%;
+    padding-right: 300px;
     padding-bottom: 30px;
+  }
+  .section-5 h5{
+    font-size: 20px !important;
+  }
+  .section-5 .para{
+    font-size: 15px !important;
   }
   
   .section-5 img{
@@ -349,6 +376,9 @@ padding-right: 20%;
   
   .section-6 img{
     margin-left: 25%;
+  }
+  .section-6 .para{
+    font-size: 15px !important;
   }
   
   
@@ -382,9 +412,7 @@ padding-right: 20%;
   margin-top: 20px;
   }
   .section-7 .card{
-  
-  margin-left: 200px;
-   
+  margin-left: 150px;
   }
   .section-8{
     width: 230%;
@@ -395,6 +423,11 @@ padding-right: 20%;
   }
   .section-7 .text-center{
     margin-left: 50px;
+  }
+  .section-8 h1 {
+    font-size: 25px !important;
+    padding-top: 15px;
+
   }
   .foot{
     width: 230%;
