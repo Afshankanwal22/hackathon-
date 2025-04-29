@@ -1,15 +1,10 @@
-/* =========================
-   GLOBAL & HEADER
-   ========================= */
+
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
 
-/* =========================
-   LOGOS ROW - SINGLE LINE (RESPONSIVE, NO SCROLLBAR ON MOBILE)
-   ========================= */
 .logos-row-single-line {
   display: flex;
   align-items: center;
@@ -42,7 +37,7 @@
   flex-shrink: 0;
 }
 
-/* Custom scrollbar for webkit browsers (desktop only) */
+
 @media (min-width: 601px) {
   .logos-row-single-line {
     overflow-x: auto;
@@ -61,7 +56,6 @@
   }
 }
 
-/* --- Responsive: On mobile, wrap and shrink logos, remove scroll --- */
 @media (max-width: 600px) {
   .logos-row-single-line {
     gap: 10px;
@@ -86,9 +80,8 @@
     font-size: 0.98rem;
     gap: 3px;
     margin-top: 8px;
-    order: 99; /* ensures it appears last if needed */
-  }
-}
+    order: 99; 
+}}
 
 body {
   overflow-x: hidden;
@@ -123,10 +116,6 @@ body {
 .active {
   color: rgb(77,77,77) !important;
 }
-
-/* =========================
-   HERO SECTION
-   ========================= */
 .hero-section {
   border: none;
   background: rgb(245,247,250);
@@ -162,9 +151,7 @@ body {
   cursor: pointer;
 }
 
-/* =========================
-   SECTION 1
-   ========================= */
+
 .section1 {
   text-align: center;
   width: 100%;
@@ -185,24 +172,7 @@ body {
     font-size: 0.95rem;
   }
 }
-/* .para {
-  color: rgb(133,134,134);
-  display: inline !important;
-  white-space: normal;
-  content: justify;
-  text-align: justify;
-  tex
-}
 
-.paras {
-  font-size: 15px;
-  text-align: center;
-  white-space: normal;
-  max-width: 600px;
-  margin: 0 auto;
-  line-height: 1.5;
-
-} */
 
 /* =========================
    BOOTSTRAP GRID OVERRIDES
@@ -353,7 +323,6 @@ body {
 .section-8 h1 {
   font-size: 50px;
 }
-/* --- Responsive Footer Section --- */
 .foot {
   background: rgb(38,50,56);
   color: white;
@@ -362,7 +331,7 @@ body {
   font-size: 1rem;
 }
 
-/* Social icons styling */
+
 .foot .fa-brands {
   font-size: 1.3rem;
   transition: color 0.2s;
@@ -479,10 +448,6 @@ body {
   color: rgb(76,175,79) ;
 }
 
-
-
-
-/* Extra: Make sure footer doesn't overflow horizontally */
 body {
   overflow-x: hidden;
 }
@@ -655,7 +620,7 @@ body {
 .meet-customers {
   color: rgb(76,175,79);
 }
-/* Remove all custom width overrides for mobile that caused horizontal scrolling! */
+
 @media (max-width: 700px) {
   .navbar,
   .hero-section,
@@ -714,7 +679,7 @@ body {
     margin-bottom: 1.5rem;
   }
   
-  /* Newsletter input full width */
+  
   .foot form > div {
     width: 100% !important;
     min-width: 0;
